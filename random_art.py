@@ -12,11 +12,11 @@ def create_expression():
     def fun(x,y):
         return sin(tan(x)+tan(y))
     def fun2(x,y):
-        return cos(sin(x)-cos(y))
+        return cos(tan(x))+sin(tan(y))
     def fun3(x,y):
-        ret = '{0}*{0}*{0}'.format(random.choice([sin(x), tan(x),cos(x),sin(y),tan(x),cos(y)]))
+        ret = '{0}*{0}*{0}'.format(random.choice([sin(x), tan(x),cos(x),sin(y),tan(y),cos(y)]))
         return eval(ret)
-    return random.choice([fun,fun2,fun3])
+    return random.choice([fun,fun, fun2, fun2,fun3])
 
 def run_expression(expr, x, y):
     """This function takes an expression created by create_expression and

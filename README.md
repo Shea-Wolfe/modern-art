@@ -4,4 +4,4 @@ In order to run these files you will need to pip install -r the requirements.txt
 
 Make sure you have create_art.py and random_art.py in the same directory.  
 
-To print the picture included run $ python create_art.py -S 6999431037704753912 .
+To print the picture included run $ python create_art.py -S 3876286570439573243 .
